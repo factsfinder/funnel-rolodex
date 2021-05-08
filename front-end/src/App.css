@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: .4em 0;
+  font-weight:bold;
+}
+
+.App-Body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #efeffa;
+}
+
+.App-Card {
+  display:flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+  align-items:center; 
+  border: 1px solid #333;
+  background-color: #fff;
+  border-radius: 16px;
+  margin-top:2em;
+  min-height:50vh;
+  max-height:500px;
+
+  
+}
+
+.App-Card p{
+  margin: 0 auto;
+}
+
+
+.App-Footer{
+  display:flex;
+  width: 100%;
+  background-color:#333;
+  color: #fff;
+  padding: 1em 0;
+  margin-top: auto;
+}
+
+
+.App-Link {
+  text-align:center;
+  font-weight: bold;
+  color: #61dafb;
+  margin: 0 auto;
+}
+
+

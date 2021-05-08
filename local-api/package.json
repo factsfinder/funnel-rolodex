@@ -1,0 +1,19 @@
+{
+  "name": "local-api",
+  "version": "1.0.0",
+  "description": "The local-api that will be consumed by the front-end place code inside of this folder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "author": "Morgan Craft",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.4.0",
+    "supertest": "^6.1.3"
+  }
+}

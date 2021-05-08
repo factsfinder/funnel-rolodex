@@ -1,0 +1,27 @@
+name: CI
+
+# Reference
+# https://help.github.com/en/actions/automating-your-workflow-with-github-actions/using-nodejs-with-github-actions
+# This workflow is triggered on pushes to the repository.
+on: [push]
+
+jobs:
+  build:
+    # Job name is displayed on PR-Conversations & Checks Panel 
+    name: CI Test Runner
+    # This job runs on Linux
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v1
+      - name: Install Node
+        # Setups the npm installer to know which private registry to pull from
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.18.2'
+          registry-url: 'https://registry.npmjs.org'
+      - name: NPM INSTALL Local-API
+        run: cd local-api && npm install
+      - name: Run Tests in Local-API
+        run: cd local-api && npm test

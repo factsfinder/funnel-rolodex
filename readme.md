@@ -6,7 +6,7 @@ Welcome to the Funnel-Rolodex Candidate Solution project.  We have detailed inst
 
 At Funnel Rolodex, our core business is as a marketplace that Sellers can post __JOBS__ and Buyers can purchase __ORDERS__ of those jobs.  Our challenge is to build a mini-dashboard that can displays a given set of jobs and their corresponding orders.
 
-__IMAGES__
+![functionality-demo](./docs/images/ui-functionality-demo.gif)
 
 ## What we provide?
 

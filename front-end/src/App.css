@@ -34,8 +34,7 @@
   margin-top:2em;
   min-height:50vh;
   max-height:500px;
-
-  
+  padding: 1em;
 }
 
 .App-Card p{
@@ -58,6 +57,13 @@
   font-weight: bold;
   color: #61dafb;
   margin: 0 auto;
+  cursor: pointer;
+}
+
+.App-Row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 
